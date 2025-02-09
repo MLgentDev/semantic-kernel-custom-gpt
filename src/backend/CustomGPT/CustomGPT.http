@@ -1,0 +1,6 @@
+@CustomGPT_HostAddress = http://localhost:5000
+
+GET {{CustomGPT_HostAddress}}/weather?text=London
+Accept: application/json
+
+###

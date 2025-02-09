@@ -1,0 +1,6 @@
+﻿services:
+  customgpt:
+    image: customgpt
+    build:
+      context: .
+      dockerfile: CustomGPT/Dockerfile
